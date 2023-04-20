@@ -31,7 +31,7 @@ def main():
     # Mesurer le temps d'exécution sur le GPU avec DirectML
     gpu_time = measure_execution_time('/dml:0', matrix_size)
     print(f"Temps d'exécution sur le GPU avec DirectML : {gpu_time:.4f} secondes")
-    print(f"Le GPU avec DirectML est {cpu_time / gpu_time:.2f} fois plus rapide que le CPU.")
+    print(f"Le GPU a été {cpu_time / gpu_time:.2f} fois plus rapide que le CPU.")
 
 
 if __name__ == "__main__":
