@@ -12,13 +12,13 @@ conda create --name intelgpu_tf_benchmark python=3.7
 tf-intelgpu-benchmark
 ```
 
-## Environnement 
+### Environnement 
 
 ```bash
 conda create --name intelgpu_tf_benchmark python=3.7 
 ```
 
-## Clone the repository
+### Clone the repository
 
 In a folder, 
 
@@ -26,7 +26,7 @@ In a folder,
 git clone https://github.com/EquinetPaul/tf-intelgpu-benchmark
 ```
 
-## Install the package
+### Install the package
 
 ```bash
 cd tf-intelgpu-benchmark
