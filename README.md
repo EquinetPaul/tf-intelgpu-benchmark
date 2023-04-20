@@ -3,19 +3,24 @@ Benchmark on Tensorflow using Intel GPU with Directml.
 
 # Usage
 ```bash
-conda create --name intelgpu_tf_benchmark python=3.7 
+tf_intelgpu_benchmark
 ```
+
+> Temps d'exécution sur le CPU : 8.0040 secondes
+
+
+> Temps d'exécution sur le GPU avec DirectML : 0.7991 secondes
+
+
+> Le GPU a été 10.02 fois plus rapide que le CPU.
 
 # Installation
-
-```bash
-tf-intelgpu-benchmark
-```
 
 ### Environnement 
 
 ```bash
 conda create --name intelgpu_tf_benchmark python=3.7 
+conda activate intelgpu_tf_benchmark
 ```
 
 ### Clone the repository
